@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"github.com/stretchr/testify/mock"
-	"my_projects/crypto/pkg/models"
-	"my_projects/crypto/tools"
+	"github.com/crypto_app/pkg/models"
+	"github.com/crypto_app/tools"
 )
 
 // MockService ...

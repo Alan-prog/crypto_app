@@ -2,13 +2,13 @@ package main
 
 import (
 	"context"
+	"github.com/crypto_app/middlewhare"
+	"github.com/crypto_app/pkg/crypto_app"
+	"github.com/crypto_app/service"
+	"github.com/crypto_app/service/httpserver"
+	"github.com/crypto_app/tools/db"
 	"log"
 	"math/rand"
-	"my_projects/crypto/middlewhare"
-	"my_projects/crypto/pkg/crypto_app"
-	"my_projects/crypto/service"
-	"my_projects/crypto/service/httpserver"
-	"my_projects/crypto/tools/db"
 	"net/http"
 	"time"
 )

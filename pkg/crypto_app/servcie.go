@@ -6,8 +6,8 @@ import (
 	"github.com/jackc/pgx"
 	"golang.org/x/crypto/bcrypt"
 	"log"
-	"my_projects/crypto/pkg/models"
-	"my_projects/crypto/tools"
+	"github.com/crypto_app/pkg/models"
+	"github.com/crypto_app/tools"
 	"net/http"
 	"strconv"
 )
